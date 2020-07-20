@@ -52,6 +52,9 @@
 	background:var(--color-body);
 	
 }
+a{
+text-decoration:none;
+}
 
 
 @keyframes changeImg{
@@ -172,11 +175,15 @@
 
 .navar-item>.item>.link{
 	text-decoration:none;
-	color:white;
+	color:grey; 
+
 	font-size:20px;
 	font-weight: bold;
 }
-
+.navar-item>.item>.active{
+	color:white; 
+	
+}
 /*boton-busqueda*/
 .form-inline-nav{
 	margin-top:7px;
@@ -343,7 +350,7 @@ border: 0px solid #000000;
 	margin-right:30px;
 	
 }
-.marquee-text{
+.marquee-text>a{
 	margin-top:5px;
 	color:black;
 	font-size:20px;
@@ -384,6 +391,9 @@ padding:10px;
 	
 	display:flex;
 }
+.title_article-prev>a{
+	color:black;
+}
 .img_Article-prev{
 	width:100px;
 	height:82px;
@@ -409,7 +419,16 @@ padding:10px;
 	
 }
 
-.Etiqueta-Category{
+
+.container-Etiqueta-Category{
+	width:100%;
+	margin-bottom:10px;
+	border-bottom:5px solid red;
+	background:white;
+	
+}
+
+.Etiqueta-Category>a{
 	color:white;
 	font-size:20px;
 	background:var(--colorLetreroNewsArticulo);
@@ -417,6 +436,7 @@ padding:10px;
 	
 	
 }
+
 
 .Post{
 	
@@ -429,13 +449,6 @@ flex-wrap: wrap;
 }
 
 
-.container-Etiqueta-Category{
-	width:100%;
-	margin-bottom:10px;
-	border-bottom:5px solid red;
-	background:white;
-	
-}
 
 
 .article{ 
@@ -484,6 +497,10 @@ background:grey;
 
 .grupo_title{
 	margin-bottom:10px;
+	
+}
+.title_article>a{
+	color:black;
 }
 .conainer-img{
 	
@@ -579,3 +596,63 @@ flex-direction:row;
 	
 }
 /*footer*/
+
+/********************Single***************************/
+.main-single{
+
+	background:var(--color-header);
+	width:100%;
+	
+
+}
+
+.article-single{
+	background:white;
+	padding:10px;
+
+	
+margin:5px;
+padding-bottom:23px;
+
+	
+}
+
+.article-single>.grupo_title>.title_article{
+	line-height:1.5;
+	font-size:45px;
+	text-align:justify;
+	text-indent:20px;	
+	
+}
+
+.article-single>.conainer-img{
+
+margin-bottom:13px;
+
+
+
+}
+.article-single>.conainer-img>.img_Article{
+	width:100%;
+	height:320px;
+
+}
+
+.article-single>.text_articulo{
+	line-height:1.5;
+	font-size:16px;
+	text-align:justify;
+	text-indent: 20px;
+	padding-bottom:5px;
+		
+
+}
+
+
+
+/*************************************************/
+/*********************Page****************************/
+
+
+
+/*************************************************/

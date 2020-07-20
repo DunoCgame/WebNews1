@@ -14,6 +14,8 @@ grid-row-gap: 0px;
 
 .header{ 	    	grid-area:header;        }
 .main{ 			grid-area:main; 		 	 } 
+.main-single{ 			grid-area:main; 		 	 } 
+.main-page{ 			grid-area:main; 		 	 } 
 .sidebar { 			grid-area:aside; 		 	 } 	
 .footer{ 			grid-area:footer; 		 	 } 
 	 
