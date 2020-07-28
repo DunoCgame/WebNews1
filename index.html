@@ -2,87 +2,89 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
-<link rel="shortcut icon" href="asset/img/logo2.jpeg" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	<link rel="shortcut icon" href="asset/img/logo2.jpeg" >
+	<link rel="stylesheet" href="asset/css/style_icono.css">
+	<link rel="stylesheet" href="asset/css/variables.css">
+	<link rel="stylesheet" href="asset/css/style_Extra_Grande.css"> 
+	<link rel="stylesheet" href="asset/css/style_Grande.css"> 
+	<link rel="stylesheet" href="asset/css/style_Mediana.css"> 
+	<link rel="stylesheet" href="asset/css/style_Pequeno.css"> 
+	<link rel="stylesheet" href="asset/css/grid.css">
+	<link rel="stylesheet" href="asset/css/slideShow.css">
 
-<!-- <link rel="stylesheet" href="css/style_Extra_Grande.css">  -->
-<!-- <link rel="stylesheet" href="css/style_Grande.css">  -->
-<link rel="stylesheet" href="asset/css/style_Mediana.css"> 
-<!-- <link rel="stylesheet" href="css/style_Pequeno.css">  -->
-<link rel="stylesheet" href="asset/css/grid.css">
-
-<link rel="stylesheet" href="asset/css/slideShow.css">
-
-<link rel="stylesheet" href="asset/css/style_icono.css">
-
-<title>web-carlos</title>
+	<!-- <link rel="stylesheet" href="asset/css/nabarCollapse.css"> -->
+	
+	<title>web-carlos</title>
 
 </head>
-<body class="body">
-	<div id="Container" class="ContainerClase">
+
+<div id="Container" class="ContainerClase">
+		
 		<header class="header">
 		
-			<!-- <img src="asset/img/2.jpg" class="img-header" attr="img-header" > -->
-				
-			<div class="container-title-img">	
-			
-				<figure class="container-img-header">
-					<img src="asset/img/logo2.jpeg" class="img-logo" attr="img-header" >
-				</figure>
-				
-				<div class="conainer-text-titulo">
-					<h1 class="title_web">CLTD</h1>
-					<p class="sub-titulo">Se empieza por el principio</p>
-				</div>
-			</div>
-			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> -->
-				<!-- <span class="navbar-toggler-icon"></span> -->
-			<!-- </button> -->
-		<nav class="navar">
-			<div class="navbar-collapse">
+			<div class="jumbotron">
+				<div class="container-title-img">	
 					
-				<ul class="navar-item" id="Menu">
+					<figure class="container-img-header">
+						<img src="asset/img/logo2.jpeg" class="img-logo" attr="img-header" >
+					</figure>
+					
+					<div class="conainer-text-titulo">
+						<h1 class="title_web">CLTD</h1>
+						<p class="sub-titulo">Se empieza por el principio</p>
+					</div>
+				</div>
+			</div>	
+		
+		<nav class="navbar">
+			
+			<button class="navbar-toggler icon-menu"  onclick="openNav()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			</button>
+	
+			<div class="navbar-collapse" id="Menu" >
+				<a href="javascript:void(0)" class="closebtn icon-cross" onclick="closeNav()"></a>
+				<ul class="navbar-item" >		
 						<li class="item"><a href="page.html" class="link active">Internacionales</a></li>
 						<li class="item"><a href="page.html" class="link">Politica</a></li>
 						<li class="item"><a href="page.html" class="link">Tecnologia</a></li>
 						<li class="item"><a href="page.html" class="link">Sucesos</a></li>
 						<li class="item"><a href="page.html" class="link">Deporte</a></li>
-						<li class="item"><a href="page.html" class="link">Entretenimiento</a>
-						</li>
+						<li class="item"><a href="page.html" class="link">Entretenimiento</a></li>
 				</ul>
-				
-				<form class="form-inline-nav">
+			</div>
+			
+			<form class="form-inline-nav">
 					<input class="form-control" type="search" placeholder="Search" aria-label="Search">
 					<button class="btn-search btn-outline-success" type="submit">Search</button>
-				</form>
-						
-					
-			</div>	
+			</form>
+		
 		</nav>
-			<div class="marquee-container">
-				<div class="container-Etiqueta-News">
-					<label class="Etiqueta-News">News</label>
-				</div>
-					<marquee  class="marquees" >
-					<div class="contaner-text-marquee">
-						<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
-					</div><div class="contaner-text-marquee">
-						<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
-					</div><div class="contaner-text-marquee">
-						<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
-					</div>
-					
-						
-					</marquee>
+		
+		<div class="marquee-container">
+			<div class="container-Etiqueta-News">
+				<label class="Etiqueta-News">News</label>
 			</div>
+			<marquee  class="marquees" >
+				<div class="contaner-text-marquee">
+					<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
+				</div><div class="contaner-text-marquee">
+					<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
+				</div><div class="contaner-text-marquee">
+					<p class="marquee-text"><a href="single.html" class="link">Noticias</a></p>
+				</div>
+			</marquee>
+		</div>
+		
 		</header>
-			
+		
+<body class="body">	
+	
 	<main class="main">
 	
-	<section class="section-wiev" >
+	<section class="section-primeraVista" >
 	<!--sildeShow-->
-<div class="slideshow">
 			<div class="slideshow-container">
 
 				<div class="mySlides fade">
@@ -100,53 +102,48 @@
 				  <div class="text"><a href="single.html" class="link">Noticias</a></div>
 				</div>
 
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>		
 			
 			</div>
-</div>
-	<!--sildeShow-->
-		<div class="container-Articulos-Prev">
-		
-		<div class="Articulos-Prev">
-		<article class="articulo-prev">
-		<figure class="conainer-img-prev">
-									<img src="asset/img/Tec.jpg" class="img_Article-prev" attr="img_Articles" >
-								</figure>
-								
-							<div class="container-text-prev">
-								<hgroup class="grupo_title-prev">
-						<h2 class="title_article-prev"><a href="single.html" class="link">Noticias</a></h2>
-								</hgroup>
-							<p class="text_articulo-prev">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión.
-								</p>
-							</div>
-		
-		</article>
-		</div>	
-		
-		<div class="Articulos-Prev">
-		<article class="articulo-prev">
-		<figure class="conainer-img-prev">
-									<img src="asset/img/Tec.jpg" class="img_Article-prev" attr="img_Articles" >
-								</figure>
-								
-							<div class="container-text-prev">
-								<hgroup class="grupo_title-prev">
-											<h2 class="title_article-prev">Article</h2>
-								</hgroup>
-							<p class="text_articulo-prev">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión.
-								</p>
-							</div>
-		</article>
-		</div>
 
-		<div class="Articulos-Prev">
-			<article class="articulo-prev">
+	<!--sildeShow-->
+	
+	<!---Articulos-previo-->
+	<div class="container-Articulos-Previos">
+		
+		<article class="Articulos-Previos">
+				
+				<figure class="conainer-img-prev">
+					<img src="asset/img/Tec.jpg" class="img_Article-prev" attr="img_Articles" >
+				</figure>
+
+				<div class="container-text-prev">
+					<hgroup class="grupo_title-prev">
+					<h2 class="title_article-prev"><a href="single.html" class="link">Noticias</a></h2>
+					</hgroup>
+					<p class="text_articulo-prev">
+						Lorem Ipsum es simplemente un texto ficticio de la industria de impresión.
+					</p>
+				</div>
+		
+		</article>
+					
+		<article class="Articulos-Previos">
+			<figure class="conainer-img-prev">
+				<img src="asset/img/Tec.jpg" class="img_Article-prev" attr="img_Articles" >
+			</figure>
+
+			<div class="container-text-prev">
+				<hgroup class="grupo_title-prev">
+						<h2 class="title_article-prev">Article</h2>
+				</hgroup>
+				<p class="text_articulo-prev">	Lorem Ipsum es simplemente un texto ficticio de la industria de impresión. 				</p>
+			</div>
+		</article>
+	
+		
+			<article class="Articulos-Previos">
 				<figure class="conainer-img-prev">
 					<img src="asset/img/Tec.jpg" class="img_Article-prev" attr="img_Articles" >
 				</figure>
@@ -160,26 +157,137 @@
 					</p>
 				</div>
 			</article>
-		</div>
+		
 		
 		</div>	
+	<!---Articulos-previo-->
 	</section>
+		
+<!-----SECCION__ARTICULOS___CATGORIAS--->
 		<!--Tecnologia--> 		<!--Tecnologia--> 		<!--Tecnologia-->
+<section  class="section_article" id="ContenedorArticulos">
+			
+		<div class="section-divice">
+			<div class="container-Etiqueta-Category">
+				<h2 class="Etiqueta-Category">
+					<a href="single.html" class="link">Tecnologia</a>
+				</h2>
+			</div>
+		</div>
+		
+		<div class="Articulos-Container">
+
+		<article class="article">
+		
+				<hgroup class="grupo_title">
+						<h2 class="title_article"><a href="single.html" class="link">Articulo</a></h2>
+				</hgroup>
+				
+				<figure class="conainer-img">
+					<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
+				</figure>
+				
+				<p class="text_articulo">
+					Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
+					y composición tipográfica. Lorem Ipsum ha sido..
+				</p>	
+		
+		</article>
+						
+						
+		<article class="article">
+				<hgroup class="grupo_title">
+							<h2 class="title_article">Article</h2>
+				</hgroup>
+				
+				<figure class="conainer-img">
+					<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
+				</figure>
+				
+				<p class="text_articulo">
+					Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
+					y composición tipográfica. Lorem Ipsum ha sido..
+				</p>
+				
+		</article>	
+						
+						
+		<article class="article">
+		
+				<hgroup class="grupo_title">
+							<h2 class="title_article">Article</h2>
+				</hgroup>
+				
+				<figure class="conainer-img">
+					<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
+				</figure>
+				
+				<p class="text_articulo">
+					Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
+					y composición tipográfica. Lorem Ipsum ha sido..
+				</p>	
+				
+		</article>		
+
+		<article class="article">
+		
+				<hgroup class="grupo_title">
+							<h2 class="title_article">Article</h2>
+				</hgroup>
+				
+				<figure class="conainer-img">
+					<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
+				</figure>
+				
+				<p class="text_articulo">
+					Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
+					y composición tipográfica. Lorem Ipsum ha sido..
+				</p>	
+				
+		</article>	
+
+		<article class="article">
+		
+				<hgroup class="grupo_title">
+							<h2 class="title_article">Article</h2>
+				</hgroup>
+				
+				<figure class="conainer-img">
+					<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
+				</figure>
+				
+				<p class="text_articulo">
+					Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
+					y composición tipográfica. Lorem Ipsum ha sido..
+				</p>	
+				
+		</article>	
+						
+						
+						
+				</div>
+		
+			
+	</section>
+<!-- politicapoliticapolitica --> <!-- politicapoliticapolitica --> <!-- politicapoliticapolitica --> <!-- politicapoliticapolitica -->
 	<section id="ContenedorArticulos" class="section_article">
 			
-			<div class="section-divice">
-				<div class="container-Etiqueta-Category"><h2 class="Etiqueta-Category"><a href="single.html" class="link">Tecnologia</a></h2>
-				</div>
+		<div class="section-divice">
+			<div class="container-Etiqueta-Category">
+				<h2 class="Etiqueta-Category">
+					<a href="single.html" class="link">Tecnologia</a>
+				</h2>
+			</div>
+		</div>
+		
+			<div class="Articulos-Container">
+		
 				
-				<div class="Post">
-				
-					
-						
-						
 	<article class="article">
-			<hgroup class="grupo_title">
-						<h2 class="title_article"><a href="single.html" class="link">Articulo</a></h2>
-			</hgroup>
+	
+	<hgroup class="grupo_title">
+				<h2 class="title_article"><a href="single.html" class="link">Articulo</a></h2>
+	</hgroup>
 			
 			<figure class="conainer-img">
 				<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
@@ -189,6 +297,7 @@
 				Lorem Ipsum es simplemente un texto ficticio de la industria de impresión 
 				y composición tipográfica. Lorem Ipsum ha sido..
 			</p>	
+	
 	</article>
 						
 						
@@ -250,82 +359,12 @@
 						</article>					
 						
 				</div>
-			</div>
+			
 			
 	</section>
-		<!-- politicapoliticapolitica -->
-	<section id="ContenedorArticulos" class="section_article">
-			
-			<div class="section-divice">
-				<div class="container-Etiqueta-Category">
-						<label class="Etiqueta-Category">Politica</label>
-				</div>
-				
-				<div class="Post">
-												
-						<article class="article">
-								<hgroup class="grupo_title">
-											<h2 class="title_article">Article</h2>
-								</hgroup>
-								<figure class="conainer-img">
-									<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
-								</figure>
-								
-								<p class="text_articulo">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido..
-								</p>	
-						</article>	
-						
-						
-						<article class="article">
-								<hgroup class="grupo_title">
-											<h2 class="title_article">Article</h2>
-								</hgroup>
-								<figure class="conainer-img">
-									<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
-								</figure>
-								
-								<p class="text_articulo">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido..
-								</p>	
-						</article>
-
-						<article class="article">
-								<hgroup class="grupo_title">
-											<h2 class="title_article">Article</h2>
-								</hgroup>
-								<figure class="conainer-img">
-									<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
-								</figure>
-								
-								<p class="text_articulo">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido..
-								</p>	
-						</article>
-
-						<article class="article">
-								<hgroup class="grupo_title">
-											<h2 class="title_article">Article</h2>
-								</hgroup>
-								<figure class="conainer-img">
-									<img src="asset/img/Tec.jpg" class="img_Article" attr="img_Articles" >
-								</figure>
-								
-								<p class="text_articulo">
-									Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido..
-								</p>	
-
-								
-						</article>	
-				</div>
-			</div>
-			
-	</section>
-
-		
-	
 		
 	</main>
+		
 		<aside class="sidebar">
 		
 		<div class="Nosotros-sidebar">
@@ -347,7 +386,7 @@
 						<li class="item"><a href="#" class="link">Entretenimiento</a></li>
 					</ul>
 					
-					<ul class="navar-item-sidebar1">
+					<ul class="navar-item-sidebar2">
 						<li class="item"><a href="#" class="link">Anuciate</a></li>
 						<li class="item"><a href="#" class="link">Contacto</a></li>
 						<li class="item"><a href="#" class="link">Mision</a></li>
@@ -356,37 +395,39 @@
 				
 				</nav>	
 	
-	<div>
+<div class="Social-buscador">
+	
 				<form class="form-inline-sidebar">
 					<input class="form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
 					<button class="btn-search btn-outline-success" type="submit">Search</button>
 				</form>
 				
-		<div class="ContainerSocial" style="background:red;">
-
-		<ul class="MenuSocial" >
 		
-			<li class="item">
-				<a href="#" class="link icon-twitter"></a>
-			</li>
+		<div class="ContainerSocial">
 
-			<li class="item">
-				<a class="link icon-instagram" href="#"></a>
-			</li>
-
-			<li class="item">
-				<a class="link icon-facebook" href="#"></a>
-			</li>
-
-			<li class="item">
-				<a class="link icon-play" href="#"></a>
-			</li>	
+			<ul class="MenuSocial" >
 			
-			<li class="item">
-				<a class="link icon-telegram" href="#"></a>
-			</li>
-			
-		</ul>
+				<li class="item">
+					<a href="#" class="link icon-twitter"></a>
+				</li>
+
+				<li class="item">
+					<a class="link icon-instagram" href="#"></a>
+				</li>
+
+				<li class="item">
+					<a class="link icon-facebook" href="#"></a>
+				</li>
+
+				<li class="item">
+					<a class="link icon-play" href="#"></a>
+				</li>	
+				
+				<li class="item">
+					<a class="link icon-telegram" href="#"></a>
+				</li>
+				
+			</ul>
 
 		</div>
 
@@ -405,6 +446,18 @@
 	<!-- <script>  -->
 	<!-- alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  -->
 	<!-- </script> -->
+<script>
+
+
+
+function openNav() {
+  document.getElementById("Menu").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("Menu").style.height = "0%";
+}
+</script>
 
 
 </body>

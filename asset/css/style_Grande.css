@@ -1,4 +1,4 @@
-@media(min-width:768px) and (max-width:1280px){
+@media(min-width:1280px) and (max-width: 1440px){
 
 
 
@@ -333,7 +333,7 @@ margin-right:10px;
 }
 
 .Articulos-Previos{
-
+	height:30%;
 	background:white;
 	padding:10px;
 	margin-bottom:7px;
@@ -345,7 +345,7 @@ margin-right:10px;
 }
 .img_Article-prev{
 	width:100px;
-	height:82px;
+	height:80px;
 }
 .container-text-prev{
 	margin-left:15px;

@@ -1,0 +1,54 @@
+
+:root{
+	
+--color-body:#cccccc;
+--color-main:#d9d9d9;
+--color-header:grey;
+--color-navar:#006666;
+--color-text-navar:white;
+--color-aside:black;
+--color-foooter:black;
+/*BARA SOCIAL*/
+--Socialcolor:black;
+/*twitter*/
+--Socialcolorfondotwitter:#00abf0;
+--Socialcolortwitter:#fff;
+/*facebook*/
+--Socialcolorfondofacebook:#3b5998;
+--Socialcolorfacebook:#fff;
+/*instagram*/
+--Socialcolorfondoinstagram:linear-gradient(to bottom right, #993366 35%, #ffff00 89%);
+--Socialcolorinstagram:#fff;
+/*telegram*/
+--Socialcolorfondotelegram:#00abf0;
+--Socialcolortelegram:#fff;
+/*blogger:*/
+--Socialcolorfondoblogger:#ffb900;
+--Socialcolorblogger:#fff;
+/*Patreon*/
+--SocialcolorfondoPatreon:#ffa31a;
+--SocialcolorPatreon:#fff;
+/*youtube*/
+--Socialcolorfondoyoutube:#e60000;
+--Socialcoloryoutube:#fff;
+/*BARA SOCIAL*/
+
+/**letrero categoria articulos y marquee**/
+--colorLetreroNewsArticulo:red;
+/**letrero categoria articulos**/
+	
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.body{
+	background:var(--color-body);
+	
+}
+
+a{
+	text-decoration:none;
+}

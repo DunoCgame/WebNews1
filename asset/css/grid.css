@@ -1,9 +1,15 @@
+
+
 .ContainerClase{
+	
 	display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(5, auto);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+
+
+
 	 grid-template-areas:
 				"header header  header header"
 				"main main main main"
