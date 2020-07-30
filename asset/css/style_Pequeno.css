@@ -172,6 +172,8 @@
 	  display:block;
 }
 
+
+
 /*boton-busqueda*/
 .form-inline-nav{
 	margin-top:10px;
@@ -249,17 +251,106 @@ border: 0px solid #000000;
 /**marquee**/ /**marquee**/ /**marquee**/
 
 /****HEADER***/ /****HEADER***//****HEADER***/ /****HEADER***/
-/****************Social-Menu*****************/
+/****************Social-Menu-1*****************/
+.NabarSocial{
+	display:block;
+	/* position:relative; */
+	/* background:red; */
+	/* padding:20px; */
+position: absolute;
+	  top: 20px;
+	
+}
+
+
+.NabarSocial>.MenuSocial>.item{
+	/* background:red; */
+		
+		/* float:right; */
+		width:50px;
+		list-style:none;
+		padding:3px 3px;
+		background:rgba(115, 115, 115, 0.4); 
+		border-radius:10px;
+		margin:5px;
+
+}
+
+.NabarSocial>.MenuSocial>.item>.link{
+	color:white;
+	text-decoration:none;
+	padding:10px 10px ;
+	font-size:25px;
+}
+
+.NabarSocial>.MenuSocial>.item>.link{	
+		display:inline-block;
+		text-decoration:none;
+		-webkit-transition:500ms ease;
+		-o-transition:all 500ms ease;
+		transition: all 500ms ease;
+		
+}
+
+.NabarSocial>.MenuSocial>.item>.icon-twitter:hover{
+		background:var(--Socialcolorfondotwitter);		
+		border-radius:10px;
+		color: var(--Socialcolortwitter);	
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+}
+
+
+.NabarSocial>.MenuSocial>.item>.icon-telegram:hover{
+		background:var(--Socialcolorfondotelegram);
+		border-radius:10px;
+		color: var(--Socialcolortelegram);		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+}
+
+.NabarSocial>.MenuSocial>.item>.icon-instagram:hover{
+		background:var(--Socialcolorfondoinstagram);
+		border-radius:10px;	
+		color: var(--Socialcolorinstagram);	
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+   
+
+.NabarSocial>.MenuSocial>.item>.icon-play:hover{
+		background:var(--Socialcolorfondoyoutube);
+		border-radius:10px;	
+		color: var(--Socialcoloryoutube);	
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+
+.NabarSocial>.MenuSocial>.item>.icon-facebook:hover{
+		background:var(--Socialcolorfondofacebook);
+		border-radius:10px;	
+		color: var(--Socialcolorfacebook);		
+		text-shadow:
+		0 0 5px rgba(255, 255, 255, 1),
+		0 0 10px rgba(255, 255, 255, 1);
+   } 
+
+/****************Social-Menu-1*****************/
+/****************Social-Menu-2*****************/
 .ContainerSocial{
 	
 	
 }
 .MenuSocial{
  
-margin-top:8px;
+/* margin-top:8px; */
 }
 
-.MenuSocial>.item{
+.ContainerSocial>.MenuSocial>.item{
 		list-style:none;
 		float:left;
 		padding: 3px 3px;
@@ -269,14 +360,14 @@ margin-top:8px;
 
 }
 
-.MenuSocial>.item>.link{
+.ContainerSocial>.MenuSocial>.item>.link{
 	color:white;
 	text-decoration:none;
 	padding:10px 10px ;
 	font-size:25px;
 }
 
-.MenuSocial>.item>.link{
+.ContainerSocial>.MenuSocial>.item>.link{
 	
 		display:inline-block;
 		text-decoration:none;
@@ -286,7 +377,7 @@ margin-top:8px;
 		
 }
 
-.MenuSocial>.item>.icon-twitter:hover{
+.ContainerSocial>.MenuSocial>.item>.icon-twitter:hover{
 		background:var(--Socialcolorfondotwitter);
 		
 		border-radius:10px;
@@ -299,7 +390,7 @@ margin-top:8px;
 }
 
 
-.MenuSocial>.item>.icon-telegram:hover{
+.ContainerSocial>.MenuSocial>.item>.icon-telegram:hover{
 		background:var(--Socialcolorfondotelegram);
 		border-radius:10px;
 		
@@ -311,7 +402,7 @@ margin-top:8px;
 		0 0 10px rgba(255, 255, 255, 1);
 }
 
-.MenuSocial>.item>.icon-instagram:hover{
+.ContainerSocial>.MenuSocial>.item>.icon-instagram:hover{
 		background:var(--Socialcolorfondoinstagram);
 		border-radius:10px;
 		
@@ -324,7 +415,7 @@ margin-top:8px;
    } 
    
 
-.MenuSocial>.item>.icon-play:hover{
+.ContainerSocial>.MenuSocial>.item>.icon-play:hover{
 		background:var(--Socialcolorfondoyoutube);
 		border-radius:10px;
 	
@@ -336,7 +427,7 @@ margin-top:8px;
 		0 0 10px rgba(255, 255, 255, 1);
    } 
 
-.MenuSocial>.item>.icon-facebook:hover{
+.ContainerSocial>.MenuSocial>.item>.icon-facebook:hover{
 		background:var(--Socialcolorfondofacebook);
 		border-radius:10px;
 	
@@ -347,7 +438,7 @@ margin-top:8px;
 		0 0 10px rgba(255, 255, 255, 1);
    } 
 
-/****************Social-Menu*****************/
+/****************Social-Menu-2*****************/
 /**Menu**/
 
 
@@ -841,6 +932,11 @@ margin-bottom:13px;
 	  font-size: 20px;
 	  color:white;
 	  display:block;
+}
+
+.NabarSocial{
+	display:block;
+	
 }
 
 /*boton-busqueda*/

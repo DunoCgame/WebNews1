@@ -120,10 +120,11 @@
 
 .navbar-item>.item>.link{
 	text-decoration:none;
-	color:grey; 
+	color:#999999; 
 
 	font-size:20px;
 	font-weight: bold;
+	font-family:var(--RobotoSlabBold);	
 }
 .navbar-item>.item>.active{
 	color:white; 
@@ -136,6 +137,10 @@
 	
 }
 
+.NabarSocial{
+	display:none;
+	
+}
 /*boton-busqueda*/
 .form-inline-nav{
 	margin-top:7px;

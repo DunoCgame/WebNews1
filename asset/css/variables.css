@@ -1,4 +1,46 @@
 
+
+/*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*/
+@font-face{
+	
+font-family:RobotoSlabVariable;
+src: url("../asset/css/fonts_text/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+  
+}
+@font-face{
+	
+font-family:RobotoSlabBlack;
+src: url("../asset/css/fonts_text/Roboto_Slab/static/RobotoSlab-Black.ttf");
+  
+}
+@font-face{
+	
+font-family:RobotoSlabBold;
+src: url("../asset/css/fonts_text/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+  
+}
+@font-face{
+	
+font-family:RobotoSlabRegular;
+src: url("../asset/css/fonts_text/Roboto_Slab/static/RobotoSlab-Regular.ttf");
+  
+}
+@font-face{
+	
+font-family:RobotoSlabMedium;
+src: url("../asset/css/fonts_text/Roboto_Slab/static/RobotoSlab-Medium.ttf");
+  
+}
+@font-face{
+	
+font-family:RobotoSlabLight;
+src: url("../asset/css/fonts_text/Roboto_Slab/static/RobotoSlab-Light.ttf");
+  
+}
+/*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*//*IMPORT FUENTE*/
+
+
+
 :root{
 	
 --color-body:#cccccc;
@@ -37,6 +79,17 @@
 --colorLetreroNewsArticulo:red;
 /**letrero categoria articulos**/
 	
+	
+/*fuentes*/
+--RobotoSlabLight:RobotoSlabLight;
+--RobotoSlabMedium:RobotoSlabMedium;
+--RobotoSlabRegular:RobotoSlabRegular;
+--RobotoSlabBold:RobotoSlabBold;
+--RobotoSlabBlack:RobotoSlabBlack;
+--RobotoSlabVariable:RobotoSlabVariable;
+
+/*fuentes*/
+	
 }
 
 *{
@@ -51,4 +104,19 @@
 
 a{
 	text-decoration:none;
+}
+
+p{
+	font-family:var(--RobotoSlabRegular);
+	/* font-family:var(--RobotoSlabLight); */
+
+}
+
+h2{
+	font-family:var(--RobotoSlabBold);	
+}
+
+.navbar-item>.item>.link{
+	font-family:var(--RobotoSlabBold);	
+	
 }

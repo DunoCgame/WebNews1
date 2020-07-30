@@ -134,8 +134,14 @@
 	
 	display:none;
 	
+	
 }
 
+
+.NabarSocial{
+	display:none;
+	
+}
 /*boton-busqueda*/
 .form-inline-nav{
 	margin-top:7px;
