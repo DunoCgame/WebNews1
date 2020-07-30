@@ -4,7 +4,7 @@ var ContenedorArticulos=document.getElementsByClassName("section_article");
 
 for(var E = 0; E < ContenedorArticulos.length; E++){
 	
-	console.log("contenedor"+" "+ContenedorArticulos.length+"|"+E);
+	// console.log("contenedor"+" "+ContenedorArticulos.length+"|"+E);
 	
 		
 	var ArticulosImpar = ContenedorArticulos[E].getElementsByClassName("article");
