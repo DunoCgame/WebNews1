@@ -4,13 +4,13 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
-	<link rel="shortcut icon" href="asset/img/logo2.jpeg" >
+	<link rel="shortcut icon" href="asset/img/Logo-s.png" >
 	<link rel="stylesheet" href="asset/css/style_icono.css">
 	<link rel="stylesheet" href="asset/css/variables.css">
-	<link rel="stylesheet" href="asset/css/style_Extra_Grande.css"> 
-	<link rel="stylesheet" href="asset/css/style_Grande.css"> 
+	<!-- <link rel="stylesheet" href="asset/css/style_Extra_Grande.css">  -->
+	<!-- <link rel="stylesheet" href="asset/css/style_Grande.css">  -->
 	<link rel="stylesheet" href="asset/css/style_Mediana.css"> 
-	<link rel="stylesheet" href="asset/css/style_Pequeno.css"> 
+	<!-- <link rel="stylesheet" href="asset/css/style_Pequeno.css">  -->
 	<link rel="stylesheet" href="asset/css/grid.css">
 	<link rel="stylesheet" href="asset/css/slideShow.css">
 
@@ -23,22 +23,23 @@
 		<header class="header">
 		
 			<div class="jumbotron">
-				<div class="container-title-img">	
-					
-					<figure class="container-img-header">
-						<img src="asset/img/logo2.jpeg" class="img-logo" attr="img-header" >
-					</figure>
-					
+			
+			
+				<div class="container-title-img">						
 					<div class="conainer-text-titulo">
-						<h1 class="title_web">CLTD</h1>
+						<h1 class="title_web">WORLD NEWS</h1>
 						<p class="sub-titulo">Se empieza por el principio</p>
 					</div>
 				</div>
+				
 			</div>	
 		
-		<nav class="navbar">
+		<nav class="navbar" id="NavbarScrooll">
 			
-			<button class="navbar-toggler icon-menu"  onclick="openNav()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<img src="asset/img/Logo-s.png" class="icon-scroll" id="iconScroll">
+			
+		
+		<button class="navbar-toggler icon-menu"  onclick="openNav()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			</button>
 	
 			<div class="navbar-collapse"  id="Menu">
@@ -62,9 +63,9 @@
 				</div>
 			</div>
 			
-			<form class="form-inline-nav">
+			<form class="form-inline-nav" id="formNabar">
 					<input class="form-control" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn-search btn-outline-success" type="submit">Search</button>
+					<button class="btn-search btn-outline-success icon-search" type="submit"></button>
 			</form>
 		
 		</nav>
@@ -449,22 +450,11 @@
 	</div>
 	<script src="asset/js/Slideshow.js"></script>
 	<script src="asset/js/ArticuloImpart.js"></script>
-	<!-- <script src="js/BotonMenu.js"></script> -->
+	<script src="asset/js/Scroollefect.js"></script>
 	<!-- <script>  -->
 	<!-- alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  -->
 	<!-- </script> -->
-<script>
 
-
-
-function openNav() {
-  document.getElementById("Menu").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("Menu").style.height = "0%";
-}
-</script>
 
 
 </body>

@@ -5,7 +5,8 @@
 
 .slideshow-container {
 	width:60%;
-	margin:6px;
+	/* margin:6px 6px 0px 6px; */
+	
   position: relative;
 
 }

@@ -45,11 +45,15 @@ src: url("fonts_text/Roboto_Slab/static/RobotoSlab-Light.ttf");
 	
 --color-body:#cccccc;
 --color-main:#d9d9d9;
---color-header:grey;
---color-navar:#006666;
+--color-header:#d9d9d9;
+/* --color-navar:#006666; */
+--color-navar:#00001a;
 --color-text-navar:white;
---color-aside:black;
---color-foooter:black;
+--color-aside:#00001a;
+--color-foooter:#00001a;
+
+
+
 /*BARA SOCIAL*/
 --Socialcolor:black;
 /*twitter*/
@@ -76,10 +80,13 @@ src: url("fonts_text/Roboto_Slab/static/RobotoSlab-Light.ttf");
 /*BARA SOCIAL*/
 
 /**letrero categoria articulos y marquee**/
---colorLetreroNewsArticulo:red;
+--colorLetreroNewsArticulo:#003399;
 /**letrero categoria articulos**/
-	
-	
+/**IndicadorSeccion**/
+	--colorIndicadorSeccion:#001a4d;
+/**IndicadorSeccion**/
+
+--BotonBuscar:#003399;
 /*fuentes*/
 --RobotoSlabLight:RobotoSlabLight;
 --RobotoSlabMedium:RobotoSlabMedium;
