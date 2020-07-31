@@ -22,30 +22,31 @@
 
 <div id="Container" class="ContainerClase">
 		
-		<header class="header">
+				<header class="header">
 		
 			<div class="jumbotron">
-				<div class="container-title-img">	
-					
-					<figure class="container-img-header">
-						<img src="asset/img/logo2.jpeg" class="img-logo" attr="img-header" >
-					</figure>
-					
+			
+			
+				<div class="container-title-img">						
 					<div class="conainer-text-titulo">
-						<h1 class="title_web">CLTD</h1>
+						<h1 class="title_web">WORLD NEWS</h1>
 						<p class="sub-titulo">Se empieza por el principio</p>
 					</div>
 				</div>
+				
 			</div>	
 		
-		<nav class="navbar">
+		<nav class="navbar" id="NavbarScrooll">
 			
-			<button class="navbar-toggler icon-menu"  onclick="openNav()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<img src="asset/img/Logo-s.png" class="icon-scroll" id="iconScroll">
+			
+		
+		<button class="navbar-toggler icon-menu"  onclick="openNav()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			</button>
 	
-			<div class="navbar-collapse" id="Menu" >
+			<div class="navbar-collapse"  id="Menu">
 				<a href="javascript:void(0)" class="closebtn icon-cross" onclick="closeNav()"></a>
-				<ul class="navbar-item" >		
+				<ul class="navbar-item" id="Menu_Action" >		
 						<li class="item"><a href="page.html" class="link active">Internacionales</a></li>
 						<li class="item"><a href="page.html" class="link">Politica</a></li>
 						<li class="item"><a href="page.html" class="link">Tecnologia</a></li>
@@ -53,11 +54,20 @@
 						<li class="item"><a href="page.html" class="link">Deporte</a></li>
 						<li class="item"><a href="page.html" class="link">Entretenimiento</a></li>
 				</ul>
+				<div class="NabarSocial">
+					<ul class="MenuSocial" >
+						<li class="item"><a href="#" class="link icon-twitter"></a></li>
+						<li class="item"><a class="link icon-instagram" href="#"></a></li>
+						<li class="item"><a class="link icon-facebook" href="#"></a></li>
+						<li class="item"><a class="link icon-play" href="#"></a></li>	
+						<li class="item"><a class="link icon-telegram" href="#"></a></li>
+					</ul>
+				</div>
 			</div>
 			
-			<form class="form-inline-nav">
+			<form class="form-inline-nav" id="formNabar">
 					<input class="form-control" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn-search btn-outline-success" type="submit">Search</button>
+					<button class="btn-search btn-outline-success icon-search" type="submit"></button>
 			</form>
 		
 		</nav>
@@ -273,23 +283,7 @@
 	</div>
 	<script src="asset/js/Slideshow.js"></script>
 	<script src="asset/js/ArticuloImpart.js"></script>
-	<!-- <script src="js/BotonMenu.js"></script> -->
-	<!-- <script>  -->
-	<!-- alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height)  -->
-	<!-- </script> -->
-<script>
-
-
-
-function openNav() {
-  document.getElementById("Menu").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("Menu").style.height = "0%";
-}
-</script>
-
+	<script src="asset/js/Scroollefect.js"></script>
 
 </body>
 
